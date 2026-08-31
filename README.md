@@ -95,17 +95,17 @@ Hyprland reloads on save; validate with `hyprctl reload` followed by
 
 Three generated, palette-only wallpapers in `backgrounds/`:
 
-1. `1-ridge.png` — calm low-poly landscape (default): a single faceted sky
+1. `1-ripples.png` — cyan quarter-circle arcs rippling out of the
+   bottom-right corner, fading as they spread (default)
+2. `2-ribbon.png` — translucent blue and cyan diagonal bands sweeping
+   across the base03 background
+3. `3-orbit.png` — blue disc with concentric cyan orbit rings in the
+   top-right, on the base03 background
+4. `4-ridge.png` — calm low-poly landscape: a single faceted sky
    over three gently rolling ridges, a round blue moon, and hairlines along
    the ridges sweeping through all eight Solarized accents — red, orange,
    yellow, green, and cyan on the far ridge; blue, violet, and magenta on
    the mid ridge. This is also the wallpaper used for the theme previews.
-2. `2-orbit.png` — blue disc with concentric cyan orbit rings in the
-   top-right, on the base03 background
-3. `3-ripples.png` — cyan quarter-circle arcs rippling out of the
-   bottom-right corner, fading as they spread
-4. `4-ribbon.png` — translucent blue and cyan diagonal bands sweeping
-   across the base03 background
 
 Cycle with `omarchy theme bg next`, or add your own to
 `~/.config/omarchy/backgrounds/solarized-dark/`.
