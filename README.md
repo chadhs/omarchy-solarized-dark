@@ -61,10 +61,35 @@ omarchy theme set solarized-dark
 - `darker_background` shades (`#002028`, `#00151b`) are base03 darkened
   toward black, keeping the hue, for sinks/floats; `lighter_background` is
   base02, the canonical highlighted-surface tone.
-- The Hyprland active border is a blue→cyan gradient (`#268bd2 #2aa198
-  45deg`) over the base03 background; the inactive border is base02.
+- The Hyprland active border is the blue→cyan gradient (`rgba(268bd2aa)
+  rgba(2aa198aa) 45deg`) rendered at ~67% alpha for a softer focus
+  highlight over the base03 background; the inactive border is base02.
 - Accents are kept identical between the dark and light themes, matching
   Solarized's terminal palettes, so syntax colors don't shift between modes.
+
+## Recommended window look
+
+Omarchy themes can't set Hyprland's decoration, so the window look this
+theme was designed against — slightly rounded corners and a thin 1px
+border to match the softened focus highlight — is a one-time user config.
+Add to `~/.config/hypr/looknfeel.lua`:
+
+```lua
+hl.config({
+  decoration = {
+    rounding = 8,
+  },
+})
+
+hl.config({
+  general = {
+    border_size = 1,
+  },
+})
+```
+
+Hyprland reloads on save; validate with `hyprctl reload` followed by
+`hyprctl configerrors`.
 
 ## Backgrounds
 
