@@ -75,9 +75,12 @@ Three generated, palette-only wallpapers in `backgrounds/`:
    the ridges sweeping through all eight Solarized accents — red, orange,
    yellow, green, and cyan on the far ridge; blue, violet, and magenta on
    the mid ridge. This is also the wallpaper used for the theme previews.
-2. `2-dusk.png` — diagonal base02→base03 fade
-3. `3-glow-blue.jpg` — radial blue glow on base03
-4. `4-glow-cyan.jpg` — radial cyan glow on base03
+2. `2-orbit.png` — blue disc with concentric cyan orbit rings in the
+   top-right, on the base03 background
+3. `3-ripples.png` — cyan quarter-circle arcs rippling out of the
+   bottom-right corner, fading as they spread
+4. `4-ribbon.png` — translucent blue and cyan diagonal bands sweeping
+   across the base03 background
 
 Cycle with `omarchy theme bg next`, or add your own to
 `~/.config/omarchy/backgrounds/solarized-dark/`.
