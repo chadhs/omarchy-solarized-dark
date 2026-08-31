@@ -8,6 +8,8 @@ Companion theme: [omarchy-solarized-light](https://github.com/chadhs/omarchy-sol
 — the two share accent values and mirrored monotone assignments, so switching
 between them keeps the same feel, per Solarized's dual-mode design.
 
+![Solarized Dark preview](preview.png)
+
 ## Install
 
 ```bash
@@ -18,6 +20,15 @@ Or clone it wherever you like and copy/symlink it to
 `~/.config/omarchy/themes/solarized-dark/`, then:
 
 ```bash
+omarchy theme set solarized-dark
+```
+
+### Update
+
+Pull the latest changes into an installed clone and re-apply it:
+
+```bash
+omarchy theme update          # pulls all git-installed themes
 omarchy theme set solarized-dark
 ```
 
